@@ -1,0 +1,116 @@
+.App{
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    padding-top:5em;
+    padding-bottom:5em;
+    width: 35%;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  /* smooth the transtiion all the time */
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .App{
+    width: 90vw;
+    padding-top: 3em;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .App{
+    width: 90vw;
+    padding-top: 3em;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .App{
+    width: 60%;
+    padding-top: 3em;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .App{
+    width: 50%;
+    padding-top: 3em;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .App{
+    width: 35%;
+    padding-top: 3em;
+  }
+}
+
+.headCard-container{
+  display: block;
+  width: 100%;
+}
+
+.music-container{
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.nameInput-container{
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.multipleChoice-container{
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.form-container{
+    display: block;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.shortText-container{
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.letter-container{
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.AboutMe-container{
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.thanks-container{
+  display: block;
+  width: 100%;
+}
+
+.music-container{
+  display: block;
+  width: 100%;
+  margin-top: 2em;
+}
