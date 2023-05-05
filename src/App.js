@@ -13,7 +13,6 @@ import {
   WarnBeforeUnload
 } from "./components/hooks";
 import { useState, useEffect } from "react";
-import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 
 function App() {
@@ -73,7 +72,6 @@ function App() {
         available={available}
         setAvailable={setAvailable}
         setShowLetter={setShowLetter} />
-      <Analytics />
       {(data.name || data.about || data.message || data.memories) && available && <WarnBeforeUnload />}
     </Theme>
   );
