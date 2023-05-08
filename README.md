@@ -5,16 +5,17 @@
 
 Project được hoàn thiện vào cuối năm học 2023 để làm lưu bút cá nhân của tớ và mọi người! Tớ viết code chưa clean và cái readme khá sơ sài nên mọi người thông cảm nhé 🗿.
 
-### Chạy source:
+## Chạy source:
 
-1. npm/yarn install
-2. npm/yarn start
+### 1. `yarn install`
 
-### HDSD:
+### 2. `yarn start`
 
-*1. Tạo tài khoản Emailjs và hCaptcha của cậu*
+## HDSD:
 
-*2. Customize và config Lưu bút*
+### *1. Tạo tài khoản Emailjs và hCaptcha của cậu*
+
+### *2. Customize và config Lưu bút*
 
 './component/hooks/Submit.js':
 - Điền site-key của hCaptcha của cậu
@@ -28,6 +29,6 @@ Project được hoàn thiện vào cuối năm học 2023 để làm lưu bút 
 - Sửa những gì cậu thấy tớ ghi vào ở file index.js
 
 
-*3. Đẩy code lên github và deploy lên vercel, hoặc bất cứ đâu cậu muốn!*
+### *3. Đẩy code lên github và deploy lên vercel, hoặc bất cứ đâu cậu muốn!*
 
 Tớ làm project với mục đích share cho cộng đồng, nên mong cậu giữ credit cho tớ nha!
