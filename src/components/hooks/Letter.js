@@ -7,7 +7,7 @@ import {
   Collapse,
   Typography,
 } from "@mui/material";
-// import '../css/Letter.css'
+import dc from "../lib/DataConfig";
 
 const Letter = ({ show, data, showLetter }) => {
   return (
@@ -28,7 +28,7 @@ const Letter = ({ show, data, showLetter }) => {
                     {data.date.hour} giờ {data.date.minute} phút.
                     <br/>
                     <br/>
-                    Gửi Khoa
+                    Gửi {dc.name}
                     <br/>
                     <br/>
                     Qua những lần gặp gỡ, ít nhiều, hoặc là tớ chỉ mới quen cậu được vài hôm thui. Tớ chấm cậu được {data.handsome} điểm đó. Mà thôi, cảm nhận của tớ về cậu này: 
@@ -41,12 +41,12 @@ const Letter = ({ show, data, showLetter }) => {
                     {data.memories}
                     <br/>
                     <br/>
-                    Chà, chúng thật đáng nhớ đúng không, mà thôi, không nhớ cũng được, keke, nhớ kiến thức để mà ôn thi THPT cho tốt. Nhỡ đâu nhớ hoài thì sao mà thi nhỉ? Dù gì cũng đã ra trường, tớ cũng muốn nhắn cậu rằng:
+                    Chà, chúng thật đáng nhớ đúng không, tớ cũng muốn nhắn cậu rằng:
                     <br/>
                     {data.message}
                     <br/>
                     <br/>
-                    Hết rùi nè, chắc tớ cũng k viết gì nữa, hi vọng là nó k lỗi để tớ còn gửi được =)))). Đỗ đại học nhaaaaa!!! Bách khoa hoặc là gì cũng được kikiii 😺
+                    Hết rùi nè, chắc tớ cũng k viết gì nữa, hi vọng là nó k lỗi để tớ còn gửi được =)))).
                     <br/>
                     <br/>
                     Kí tên

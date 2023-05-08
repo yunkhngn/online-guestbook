@@ -47,7 +47,7 @@ const MusicPlayer = () => {
       <CardMedia
           component="img"
           sx={{ width: {md:"250px",xs:"100%"}, borderRadius: 1 , aspectRatio:"1/1"}}
-          image="https://i.pinimg.com/564x/df/68/79/df6879024b8f67c945cf2452db4c5e54.jpg"
+          image="https://www.macmillandictionary.com/external/slideshow/thumb/Grey_thumb.png"
           alt="Ngọt"
         />
         </CardActionArea>
@@ -68,7 +68,7 @@ const MusicPlayer = () => {
               sx={{mt:'1em'}}
               component="div"
             >
-              Một bài nhạc khá là hay mà tớ hay nghe. Thực ra là tớ lười làm cái này nên nó sơ vcl. 🗿
+              Thay nhạc của cậu vào đây này
             </Typography>
           </CardContent>
           <Box sx={{ display: "flex", alignItems: "center", pl: {md:1, xs:0}, pb: 1}}>
@@ -78,7 +78,7 @@ const MusicPlayer = () => {
             <Button sx={{ml:'1em'}} onClick={replay}>
               Replay
             </Button>
-            <Button sx={{ml:'1em'}} variant="outlined" color="success" onClick={() => {window.open("https://open.spotify.com/playlist/7toU7okc85X0gVDEOWcWYi?si=fcb559ec8603406c", "_blank")}}>
+            <Button sx={{ml:'1em'}} variant="outlined" color="success" onClick={() => {window.open("play list của cậu", "_blank")}}>
               Playlist
             </Button>
           </Box>

@@ -29,7 +29,7 @@ const HeadCard = ({ show, setShow, available, setShowLetter, showLetter }) => {
           />
         </CardActionArea>
         <CardHeader
-          title={dc.headCard.title}
+          title={dc.headCard.title + " " + dc.name}
           titleTypographyProps={{ variant: "h5" }}
           sx={{
             borderBottom: 1,
@@ -39,8 +39,10 @@ const HeadCard = ({ show, setShow, available, setShowLetter, showLetter }) => {
             pt: 4,
             pb: 3,
           }}
-          subheader={dc.headCard.subheader}
+          subheader="Created by @yun.khngn"
           subheaderTypographyProps={{ variant: "subtitle1" }}
+          onClick={() => window.open("https://www.facebook.com/yun.khngn/", "_blank")}
+          alt="Mọi người giữ credit cho tớ nhé!"
         />
         <CardContent
           sx={{ borderBottom: 1, borderColor: "divider", pt: 3, pb: 3 }}
@@ -50,9 +52,6 @@ const HeadCard = ({ show, setShow, available, setShowLetter, showLetter }) => {
             <br/>
             <br/>
             {dc.headCard.content2}
-            <br/>
-            <br/>
-            Mọi người điền cũng được, không điền cũng không sao. Tớ cũng cần chút dữ liệu để xem có chỗ nào bị lỗi k thì feedback lại cho tớ nhé 😺. Tớ cũng rất thích đọc những gì mọi người viết cho tớ. Cảm ơn kikii!
           </Typography>
         </CardContent>
         <CardActions sx={{ pl: 2, pr: 2, pt: 2, pb: 2 }}>
