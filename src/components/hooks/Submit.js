@@ -83,7 +83,7 @@ const Submit = ({
           message: { data }.data.message,
           point: { data }.data.handsome,
         },
-        "6mpYFhaV6lVgQsngg"
+        "public_key"
       );
     }
   };
@@ -121,7 +121,7 @@ const Submit = ({
             </Typography>
             <Box sx={{ pl: 1, pr: 1 }}>
               {!onDevelopmentEnv && <HCaptcha
-                sitekey="site-key-cua-ban"
+                sitekey="site_key"
                 onVerify={(token, ekey) => {
                   setAuthen(true);
                 }}

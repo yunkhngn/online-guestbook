@@ -9,3 +9,4 @@ Project được hoàn thiện vào cuối năm học 2023 để làm lưu bút 
 './component/hooks/Submit.js':
 - Điền site-key của hCaptcha của bạn
 - Điền services-key và template của emailjs
+- Điền public-key của emailjs
