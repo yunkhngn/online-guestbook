@@ -24,6 +24,10 @@ Project được hoàn thiện vào cuối năm học 2023 để làm lưu bút 
 './component/lib/DataConfig.js':
 - Sửa nội dung của cậu ở DataConfig.js
 
+'../../public/'
+- Sửa những gì cậu thấy tớ ghi vào ở file index.js
+
+
 *3. Đẩy code lên github và deploy lên vercel, hoặc bất cứ đâu cậu muốn!*
 
 Tớ làm project với mục đích share cho cộng đồng, nên mong cậu giữ credit cho tớ nha!
