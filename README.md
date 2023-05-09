@@ -3,7 +3,7 @@
 
 *Date created: 27/4/2023*
 
-Project được hoàn thiện vào cuối năm học 2023 để làm lưu bút cá nhân của tớ và mọi người! Tớ viết code chưa clean và cái readme khá sơ sài nên mọi người thông cảm nhé 🗿.
+Project được hoàn thiện vào cuối cấp 3 của tớ để làm lưu bút cá nhân cho mọi người! Tớ viết code chưa clean và cái readme khá sơ sài nên mọi người thông cảm nhé 🗿.
 
 ## Chạy source:
 
