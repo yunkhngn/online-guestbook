@@ -1,0 +1,25 @@
+Ngày {{date_day}} tháng {{date_month}} năm {{date_year}}
+{{date_hour}} giờ {{date_minute}} phút.
+
+Gửi //Tên của cậu
+
+
+
+Qua những lần gặp gỡ, ít nhiều, hoặc là tớ chỉ mới quen cậu được vài hôm thui. Tớ chấm cậu được {{point}} điểm đó. Mà thôi, cảm nhận của tớ về cậu này:
+
+{{about_me}}
+
+
+Mấy năm học cấp ba đã kết thúc, tớ chẳng biết nói gì nữa, thôi thì ngồi ôn lại những gì đã từng là kỉ niệm. Kỉ niệm của chúng ta là đây:
+
+{{memories}}
+
+Chà, chúng thật đáng nhớ đúng không, mà thôi, không nhớ cũng được, keke, nhớ kiến thức để mà ôn thi THPT cho tốt. Nhỡ đâu nhớ hoài thì sao mà thi nhỉ? Dù gì cũng đã ra trường, tớ cũng muốn nhắn cậu rằng:
+
+{{message}}
+
+
+Hết rùi nè, chắc tớ cũng k viết gì nữa, hi vọng là nó k lỗi để tớ còn gửi được =)))). Đỗ đại học nhaaaaa!!! Bách khoa hoặc là gì cũng được kikiii 😺
+
+Kí tên
+{{name}}.
