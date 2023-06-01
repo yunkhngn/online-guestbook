@@ -21,7 +21,7 @@ Project được hoàn thiện vào cuối cấp 3 của tớ để làm lưu b�
 - Điền site-key của hCaptcha của cậu
 - Điền services-key và template của emailjs
 - Điền public-key của emailjs
-
+- Sửa template trên emailjs.com theo cái của mình hoặc customize đi tẹo, mình để ở file template-emailjs.txt.
 './component/lib/DataConfig.js':
 - Sửa nội dung của cậu ở DataConfig.js
 
