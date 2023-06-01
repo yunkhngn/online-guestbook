@@ -3,6 +3,10 @@ import { Fab } from '@mui/material'
 import SettingsIcon from '@mui/icons-material/Settings';
 
 const ThemeButton = ({setMode, modeTheme}) => {
+  const changeTheme = () => {
+    setMode(!modeTheme)
+    localStorage.setItem('theme', JSON.stringify(!modeTheme));
+  }
   return (
     <Fab variant="contained" color="primary"
     aria-label="change theme"
@@ -12,7 +16,7 @@ const ThemeButton = ({setMode, modeTheme}) => {
         right: {xs: 16, md: 30,},
         zIndex: 1000,
     }}
-    onClick={() => {setMode(!modeTheme)}}
+    onClick={() => {changeTheme()}}
     >
         <SettingsIcon/>
     </Fab>
