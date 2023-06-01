@@ -24,4 +24,4 @@ Tớ đã update lại server và chỉ cần sửa config là xài được r�
 Tớ làm project với mục đích share cho cộng đồng, nên mong cậu giữ credit cho tớ nha!
 
 <br>
-<img src="https://i.imgur.com/pVxxd8E.jpg" style="border-radius:5px, margin-top:15px"/>
+<img src="https://wallpapers.com/images/featured/vmdj9lfm2un8rji3.jpg" style="border-radius:5px, margin-top:15px"/>
