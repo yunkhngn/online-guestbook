@@ -1,5 +1,7 @@
 const dc = {
-    name: "Tớ",
+    myself: "Tớ",
+    //đièn tên và gmail của cậu vào đây nha
+    email: "@gmail.com",
     headCard: {
         //title có tên rồi nha
         title: "Lưu bút của",

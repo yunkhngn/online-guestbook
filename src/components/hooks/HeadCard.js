@@ -29,7 +29,7 @@ const HeadCard = ({ show, setShow, available, setShowLetter, showLetter }) => {
           />
         </CardActionArea>
         <CardHeader
-          title={dc.headCard.title + " " + dc.name}
+          title={dc.headCard.title + " " + dc.myself}
           titleTypographyProps={{ variant: "h5" }}
           sx={{
             borderBottom: 1,

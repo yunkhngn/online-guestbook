@@ -14,6 +14,7 @@ import {
 } from "./components/hooks";
 import { useState, useEffect } from "react";
 import "./App.css";
+import dc from "./components/lib/DataConfig.js"
 
 function App() {
   const [show, setShow] = useState(false); //show để show form
@@ -24,6 +25,7 @@ function App() {
   const [memoriesError, setMemoriesError] = useState(false);
   const [messageError, setMessageError] = useState(false);
   const onDevelopmentEnv = process.env.NODE_ENV === "development";
+  document.title = dc.headCard.title + " " + dc.myself;
   const [data, setData] = useState({
     date: "",
     name: "",

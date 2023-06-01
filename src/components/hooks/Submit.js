@@ -67,12 +67,14 @@ const Submit = ({
     localStorage.setItem("data", JSON.stringify({ ...data, date: time }));
 
     //email về email
-    if (!onDevelopmentEnv) {
+    if (onDevelopmentEnv) {
       emailjs.send(
-        "service_key",
-        "template_key",
+        "service_bvxrtbi",
+        "template_dj51y99",
         {
           name: { data }.data.name,
+          myself: dc.myself,
+          email: dc.email,
           date_day: { time }.time.day,
           date_month: { time }.time.month,
           date_year: { time }.time.year,
@@ -83,7 +85,7 @@ const Submit = ({
           message: { data }.data.message,
           point: { data }.data.handsome,
         },
-        "public_key"
+        "6mpYFhaV6lVgQsngg"
       );
     }
   };
