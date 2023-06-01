@@ -2,6 +2,10 @@ const dc = {
     myself: "Tớ",
     //đièn tên và gmail của cậu vào đây nha
     email: "@gmail.com",
+    meta: {
+        //hiển thị lúc share bài lên fb
+        img: "https://www.macmillandictionary.com/external/slideshow/thumb/Grey_thumb.png",
+    },
     headCard: {
         //title có tên rồi nha
         title: "Lưu bút của",

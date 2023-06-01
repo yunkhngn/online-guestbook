@@ -67,7 +67,7 @@ const Submit = ({
     localStorage.setItem("data", JSON.stringify({ ...data, date: time }));
 
     //email về email
-    if (onDevelopmentEnv) {
+    if (!onDevelopmentEnv) {
       emailjs.send(
         "service_bvxrtbi",
         "template_dj51y99",
@@ -123,7 +123,7 @@ const Submit = ({
             </Typography>
             <Box sx={{ pl: 1, pr: 1 }}>
               {!onDevelopmentEnv && <HCaptcha
-                sitekey="site_key"
+                sitekey="31677f64-0983-4d5f-afcf-bcb06e4a6bc6"
                 onVerify={(token, ekey) => {
                   setAuthen(true);
                 }}

@@ -7,27 +7,21 @@ Project được hoàn thiện vào cuối năm học 2023 để làm lưu bút 
 
 ### Chạy source:
 
-1. npm/yarn install
-2. npm/yarn start
+1. npm/yarn install (install các dependencies)
+2. npm/yarn start (chạy server development)
 
+`Version 2.0`
 ### HDSD:
 
-*1. Tạo tài khoản Emailjs và hCaptcha của cậu*
+Tớ đã update lại server và chỉ cần sửa config là xài được rồi
 
-*2. Customize và config Lưu bút*
-
-'./component/hooks/Submit.js':
-- Điền site-key của hCaptcha của cậu
-- Điền services-key và template của emailjs
-- Điền public-key của emailjs
-
+*1. Customize và config Lưu bút*
 './component/lib/DataConfig.js':
-- Sửa nội dung của cậu ở DataConfig.js
+- Sửa nội dung của cậu ở DataConfig.js, có cái gì thì sửa tất.
 
-'../../public/'
-- Sửa những gì cậu thấy tớ ghi vào ở file index.js
-
-
-*3. Đẩy code lên github và deploy lên vercel, hoặc bất cứ đâu cậu muốn!*
+*2. Đẩy code lên github và deploy lên vercel, hoặc bất cứ đâu cậu muốn!*
 
 Tớ làm project với mục đích share cho cộng đồng, nên mong cậu giữ credit cho tớ nha!
+
+<br>
+<img src="https://i.imgur.com/pVxxd8E.jpg" style="border-radius:5px, margin-top:15px"/>
