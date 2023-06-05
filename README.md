@@ -21,6 +21,10 @@ Tớ đã update lại server và chỉ cần sửa config là xài được r�
 
 *2. Đẩy code lên github và deploy lên vercel, hoặc bất cứ đâu cậu muốn!*
 
+
+!! Tạm thời nhiều người POST api để test quá nên tạm thời chưa có quora hoặc mn tự thay emailjs services nhé 🫠 !!
+`./component/hooks/Submit.js/`
+
 Tớ làm project với mục đích share cho cộng đồng, nên mong cậu giữ credit cho tớ nha!
 
 <br>
